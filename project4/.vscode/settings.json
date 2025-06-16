@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "scenario.h": "c",
+    "game.h": "c",
+    "array": "c",
+    "string_view": "c",
+    "initializer_list": "c",
+    "utility": "c",
+    "lcd.h": "c",
+    "fps.h": "c"
+  }
+}

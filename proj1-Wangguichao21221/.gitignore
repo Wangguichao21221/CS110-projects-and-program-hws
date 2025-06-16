@@ -1,0 +1,11 @@
+__MACOSX
+.cache
+.clang-format
+.gdbinit
+compile_commands.json
+test/out
+assembler
+*.o
+.vscode/
+out/
+ForTest/

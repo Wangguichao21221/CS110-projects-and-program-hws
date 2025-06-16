@@ -1,0 +1,16 @@
+Number of lines in sample/vec_add.S: 15
+Instruction: li, rd: 5, imm: 16
+Instruction: li, rd: 6, imm: 0
+Instruction: li, rd: 10, imm: 256
+Instruction: li, rd: 11, imm: 512
+Instruction: slli, rd: 7, rs1: 6, imm: 2
+Instruction: add, rd: 28, rs1: 10, rs2: 7
+Instruction: lw, rs1: 28, rd: 29, imm: 0
+Instruction: add, rd: 30, rs1: 11, rs2: 7
+Instruction: lw, rs1: 30, rd: 31, imm: 0
+Instruction: add, rd: 29, rs1: 29, rs2: 31
+Instruction: addi, rd: 0, rs1: 0, imm: 0
+Instruction: addi, rd: 0, rs1: 0, imm: 0
+Instruction: sw, rs1: 28, rs2: 29, imm: 0
+Instruction: addi, rd: 6, rs1: 6, imm: 1
+Instruction: bne, rs1: 5, rs2: 6, imm: -40

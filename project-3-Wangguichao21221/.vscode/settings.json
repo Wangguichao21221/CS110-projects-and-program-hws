@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "mercha.h": "c",
+    "omp.h": "c"
+  }
+}
